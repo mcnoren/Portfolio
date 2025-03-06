@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25099E9F2BAE4B44008D6AC7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25099E9E2BAE4B44008D6AC7 /* Node.swift */; };
+		25099EA12BAE4B73008D6AC7 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25099EA02BAE4B73008D6AC7 /* LinkedList.swift */; };
+		25099EA32BB07AFD008D6AC7 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25099EA22BB07AFD008D6AC7 /* CameraViewModel.swift */; };
+		2510F1C52BA286AE00646931 /* EditScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2510F1C42BA286AE00646931 /* EditScheduleView.swift */; };
+		2510F1C72BA3570400646931 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2510F1C62BA3570400646931 /* StatsView.swift */; };
+		2510F1C92BA3786900646931 /* ScheduleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2510F1C82BA3786900646931 /* ScheduleChartView.swift */; };
+		2511885A2B97801F007AC44A /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251188592B97801F007AC44A /* DayModel.swift */; };
+		2511885D2B978068007AC44A /* DayLIstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511885C2B978068007AC44A /* DayLIstViewModel.swift */; };
+		251188602B9780A7007AC44A /* DayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511885F2B9780A7007AC44A /* DayListView.swift */; };
+		251188632B97838C007AC44A /* DayListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251188622B97838C007AC44A /* DayListRowView.swift */; };
+		251188652B9786E8007AC44A /* AddDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251188642B9786E8007AC44A /* AddDayView.swift */; };
+		2514FB672B9DBD8F00AB5A8F /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514FB662B9DBD8F00AB5A8F /* ScheduleView.swift */; };
+		2514FB692B9E2AFA00AB5A8F /* ScheduleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514FB682B9E2AFA00AB5A8F /* ScheduleInfoView.swift */; };
+		2514FB6B2B9E2C4300AB5A8F /* ScheduleTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514FB6A2B9E2C4300AB5A8F /* ScheduleTimeView.swift */; };
+		2514FB6D2B9E2DBA00AB5A8F /* ScheduleLLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514FB6C2B9E2DBA00AB5A8F /* ScheduleLLView.swift */; };
+		252CCDF62B9CF4F600874B68 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252CCDF52B9CF4F600874B68 /* TimeView.swift */; };
+		252CCDF82B9D0FC900874B68 /* AddScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252CCDF72B9D0FC900874B68 /* AddScheduleView.swift */; };
+		2530D8C82BF7EC640012B496 /* AddTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530D8C72BF7EC640012B496 /* AddTemplateView.swift */; };
+		2530D8CA2BFA7CBA0012B496 /* ParkListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530D8C92BFA7CBA0012B496 /* ParkListRowView.swift */; };
+		2530D8CC2BFA90140012B496 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530D8CB2BFA90140012B496 /* TemplateView.swift */; };
+		2530D8CE2BFBFEF70012B496 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530D8CD2BFBFEF70012B496 /* TemplatesView.swift */; };
+		25505E652B9FFC9D0009A7F9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25505E642B9FFC9D0009A7F9 /* SearchBarView.swift */; };
+		257659272B97EF8800CAF0A8 /* AttractionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257659262B97EF8800CAF0A8 /* AttractionListView.swift */; };
+		257CD2782B966DA600DCC60E /* MyThemeParkDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CD2772B966DA600DCC60E /* MyThemeParkDayApp.swift */; };
+		257CD27C2B966DA700DCC60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257CD27B2B966DA700DCC60E /* Assets.xcassets */; };
+		257CD27F2B966DA700DCC60E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257CD27E2B966DA700DCC60E /* Preview Assets.xcassets */; };
+		257CD2892B966DA700DCC60E /* MyThemeParkDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CD2882B966DA700DCC60E /* MyThemeParkDayTests.swift */; };
+		257CD2932B966DA700DCC60E /* MyThemeParkDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CD2922B966DA700DCC60E /* MyThemeParkDayUITests.swift */; };
+		257CD2952B966DA700DCC60E /* MyThemeParkDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CD2942B966DA700DCC60E /* MyThemeParkDayUITestsLaunchTests.swift */; };
+		25843B652BB61AFB005CEBE0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B642BB61AFB005CEBE0 /* LoadingView.swift */; };
+		25843B672BB71744005CEBE0 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B662BB71744005CEBE0 /* ImageSaver.swift */; };
+		25843B692BB72F7E005CEBE0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B682BB72F7E005CEBE0 /* MapView.swift */; };
+		25843B6B2BB75044005CEBE0 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B6A2BB75044005CEBE0 /* MapAnnotationView.swift */; };
+		25843B6F2BB762A1005CEBE0 /* MapLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B6E2BB762A1005CEBE0 /* MapLocationView.swift */; };
+		25843B732BB85BAF005CEBE0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B722BB85BAF005CEBE0 /* MapViewModel.swift */; };
+		25843B752BB9C38C005CEBE0 /* PhotoRefModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843B742BB9C38C005CEBE0 /* PhotoRefModel.swift */; };
+		25843BAA2BBB5839005CEBE0 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25843BA92BBB5839005CEBE0 /* WatchConnector.swift */; };
+		25843BB22BBB8B20005CEBE0 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25843BB12BBB8B20005CEBE0 /* WatchConnectivity.framework */; };
+		2585FC572BA65EAB00CF960E /* DayStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FC562BA65EAB00CF960E /* DayStatsView.swift */; };
+		25990D1A2BFC0FCC003BDE51 /* ParkTemplateListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25990D192BFC0FCC003BDE51 /* ParkTemplateListRowView.swift */; };
+		25990D1E2BFD233D003BDE51 /* EditTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25990D1D2BFD233D003BDE51 /* EditTemplateView.swift */; };
+		25990D202BFD599A003BDE51 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25990D1F2BFD5999003BDE51 /* EditEventView.swift */; };
+		25990D222BFE582E003BDE51 /* AddAttractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25990D212BFE582E003BDE51 /* AddAttractionView.swift */; };
+		25990D242C011289003BDE51 /* csvExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25990D232C011289003BDE51 /* csvExplanationView.swift */; };
+		25A79C452B991D000024F2FF /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C442B991D000024F2FF /* EventListViewModel.swift */; };
+		25A79C472B991FC60024F2FF /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C462B991FC60024F2FF /* EventModel.swift */; };
+		25A79C492B994F1E0024F2FF /* AttractionListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C482B994F1E0024F2FF /* AttractionListRowView.swift */; };
+		25A79C4B2B9A1BF60024F2FF /* DayTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C4A2B9A1BF60024F2FF /* DayTabView.swift */; };
+		25A79C4D2B9A20AF0024F2FF /* DayHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C4C2B9A20AF0024F2FF /* DayHomeView.swift */; };
+		25A79C532B9AC0C80024F2FF /* EventListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C522B9AC0C80024F2FF /* EventListRowView.swift */; };
+		25A79C592B9B7E3E0024F2FF /* ScheduleListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C582B9B7E3E0024F2FF /* ScheduleListRowView.swift */; };
+		25A79C5B2B9B7E930024F2FF /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C5A2B9B7E930024F2FF /* ScheduleModel.swift */; };
+		25A79C5D2B9B82B00024F2FF /* ScheduleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A79C5C2B9B82B00024F2FF /* ScheduleListViewModel.swift */; };
+		25AAFFE82BA752E6005AB514 /* PDFexample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAFFE72BA752E6005AB514 /* PDFexample.swift */; };
+		25AAFFEA2BAA5259005AB514 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAFFE92BAA5259005AB514 /* PhotoModel.swift */; };
+		25AAFFEC2BAA53D3005AB514 /* PhotoGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAFFEB2BAA53D3005AB514 /* PhotoGroupViewModel.swift */; };
+		25B54F482C06956F00803F66 /* OrderMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B54F472C06956F00803F66 /* OrderMapAnnotationView.swift */; };
+		25C87B922BF270CA002EC8EF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 25C87B912BF270CA002EC8EF /* PrivacyInfo.xcprivacy */; };
+		25EA81C22C2A10C60007170C /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA81C12C2A10BB0007170C /* Untitled.swift */; };
+		25F64B2D2BBDF58D0010F04F /* StatsPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64B2C2BBDF58D0010F04F /* StatsPhotoView.swift */; };
+		25F64B2F2BBE43C50010F04F /* SchedulePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64B2E2BBE43C50010F04F /* SchedulePhotoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		257CD2852B966DA700DCC60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 257CD26C2B966DA600DCC60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257CD2732B966DA600DCC60E;
+			remoteInfo = MyDisneyStats;
+		};
+		257CD28F2B966DA700DCC60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 257CD26C2B966DA600DCC60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257CD2732B966DA600DCC60E;
+			remoteInfo = MyDisneyStats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25843BA22BBB577A005CEBE0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25099E9E2BAE4B44008D6AC7 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		25099EA02BAE4B73008D6AC7 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		25099EA22BB07AFD008D6AC7 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		25099EA42BB08A71008D6AC7 /* MyThemeParkDay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyThemeParkDay-Info.plist"; sourceTree = "<group>"; };
+		2510F1C42BA286AE00646931 /* EditScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScheduleView.swift; sourceTree = "<group>"; };
+		2510F1C62BA3570400646931 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		2510F1C82BA3786900646931 /* ScheduleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChartView.swift; sourceTree = "<group>"; };
+		251188592B97801F007AC44A /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		2511885C2B978068007AC44A /* DayLIstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLIstViewModel.swift; sourceTree = "<group>"; };
+		2511885F2B9780A7007AC44A /* DayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListView.swift; sourceTree = "<group>"; };
+		251188622B97838C007AC44A /* DayListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListRowView.swift; sourceTree = "<group>"; };
+		251188642B9786E8007AC44A /* AddDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayView.swift; sourceTree = "<group>"; };
+		2514FB662B9DBD8F00AB5A8F /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		2514FB682B9E2AFA00AB5A8F /* ScheduleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInfoView.swift; sourceTree = "<group>"; };
+		2514FB6A2B9E2C4300AB5A8F /* ScheduleTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTimeView.swift; sourceTree = "<group>"; };
+		2514FB6C2B9E2DBA00AB5A8F /* ScheduleLLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLLView.swift; sourceTree = "<group>"; };
+		252CCDF52B9CF4F600874B68 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		252CCDF72B9D0FC900874B68 /* AddScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleView.swift; sourceTree = "<group>"; };
+		2530D8C72BF7EC640012B496 /* AddTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTemplateView.swift; sourceTree = "<group>"; };
+		2530D8C92BFA7CBA0012B496 /* ParkListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListRowView.swift; sourceTree = "<group>"; };
+		2530D8CB2BFA90140012B496 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		2530D8CD2BFBFEF70012B496 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		25505E642B9FFC9D0009A7F9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		257659262B97EF8800CAF0A8 /* AttractionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionListView.swift; sourceTree = "<group>"; };
+		257CD2742B966DA600DCC60E /* MyThemeParkDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyThemeParkDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257CD2772B966DA600DCC60E /* MyThemeParkDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThemeParkDayApp.swift; sourceTree = "<group>"; };
+		257CD27B2B966DA700DCC60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		257CD27E2B966DA700DCC60E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		257CD2842B966DA700DCC60E /* MyThemeParkDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyThemeParkDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257CD2882B966DA700DCC60E /* MyThemeParkDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThemeParkDayTests.swift; sourceTree = "<group>"; };
+		257CD28E2B966DA700DCC60E /* MyThemeParkDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyThemeParkDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257CD2922B966DA700DCC60E /* MyThemeParkDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThemeParkDayUITests.swift; sourceTree = "<group>"; };
+		257CD2942B966DA700DCC60E /* MyThemeParkDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThemeParkDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25843B642BB61AFB005CEBE0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		25843B662BB71744005CEBE0 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		25843B682BB72F7E005CEBE0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		25843B6A2BB75044005CEBE0 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		25843B6E2BB762A1005CEBE0 /* MapLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationView.swift; sourceTree = "<group>"; };
+		25843B722BB85BAF005CEBE0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		25843B742BB9C38C005CEBE0 /* PhotoRefModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRefModel.swift; sourceTree = "<group>"; };
+		25843BA92BBB5839005CEBE0 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		25843BAF2BBB84E8005CEBE0 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		25843BB12BBB8B20005CEBE0 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		2585FC562BA65EAB00CF960E /* DayStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStatsView.swift; sourceTree = "<group>"; };
+		25990D192BFC0FCC003BDE51 /* ParkTemplateListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkTemplateListRowView.swift; sourceTree = "<group>"; };
+		25990D1D2BFD233D003BDE51 /* EditTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTemplateView.swift; sourceTree = "<group>"; };
+		25990D1F2BFD5999003BDE51 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		25990D212BFE582E003BDE51 /* AddAttractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAttractionView.swift; sourceTree = "<group>"; };
+		25990D232C011289003BDE51 /* csvExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csvExplanationView.swift; sourceTree = "<group>"; };
+		25A79C442B991D000024F2FF /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		25A79C462B991FC60024F2FF /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		25A79C482B994F1E0024F2FF /* AttractionListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionListRowView.swift; sourceTree = "<group>"; };
+		25A79C4A2B9A1BF60024F2FF /* DayTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTabView.swift; sourceTree = "<group>"; };
+		25A79C4C2B9A20AF0024F2FF /* DayHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayHomeView.swift; sourceTree = "<group>"; };
+		25A79C522B9AC0C80024F2FF /* EventListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListRowView.swift; sourceTree = "<group>"; };
+		25A79C582B9B7E3E0024F2FF /* ScheduleListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListRowView.swift; sourceTree = "<group>"; };
+		25A79C5A2B9B7E930024F2FF /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		25A79C5C2B9B82B00024F2FF /* ScheduleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListViewModel.swift; sourceTree = "<group>"; };
+		25AAFFE72BA752E6005AB514 /* PDFexample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFexample.swift; sourceTree = "<group>"; };
+		25AAFFE92BAA5259005AB514 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		25AAFFEB2BAA53D3005AB514 /* PhotoGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGroupViewModel.swift; sourceTree = "<group>"; };
+		25B54F472C06956F00803F66 /* OrderMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMapAnnotationView.swift; sourceTree = "<group>"; };
+		25C87B912BF270CA002EC8EF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		25EA81C12C2A10BB0007170C /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		25F64B2C2BBDF58D0010F04F /* StatsPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsPhotoView.swift; sourceTree = "<group>"; };
+		25F64B2E2BBE43C50010F04F /* SchedulePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePhotoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257CD2712B966DA600DCC60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25843BB22BBB8B20005CEBE0 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257CD2812B966DA700DCC60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257CD28B2B966DA700DCC60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251188582B977FF8007AC44A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				251188592B97801F007AC44A /* DayModel.swift */,
+				25A79C462B991FC60024F2FF /* EventModel.swift */,
+				25A79C5A2B9B7E930024F2FF /* ScheduleModel.swift */,
+				25AAFFE92BAA5259005AB514 /* PhotoModel.swift */,
+				25843B742BB9C38C005CEBE0 /* PhotoRefModel.swift */,
+				25099E9E2BAE4B44008D6AC7 /* Node.swift */,
+				25099EA02BAE4B73008D6AC7 /* LinkedList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2511885B2B978034007AC44A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2511885C2B978068007AC44A /* DayLIstViewModel.swift */,
+				25A79C442B991D000024F2FF /* EventListViewModel.swift */,
+				25A79C5C2B9B82B00024F2FF /* ScheduleListViewModel.swift */,
+				25AAFFEB2BAA53D3005AB514 /* PhotoGroupViewModel.swift */,
+				25843B722BB85BAF005CEBE0 /* MapViewModel.swift */,
+				25099EA22BB07AFD008D6AC7 /* CameraViewModel.swift */,
+				25843BA92BBB5839005CEBE0 /* WatchConnector.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2511885E2B978074007AC44A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				25843B642BB61AFB005CEBE0 /* LoadingView.swift */,
+				2511885F2B9780A7007AC44A /* DayListView.swift */,
+				251188622B97838C007AC44A /* DayListRowView.swift */,
+				25A79C482B994F1E0024F2FF /* AttractionListRowView.swift */,
+				25A79C522B9AC0C80024F2FF /* EventListRowView.swift */,
+				2530D8C92BFA7CBA0012B496 /* ParkListRowView.swift */,
+				25A79C582B9B7E3E0024F2FF /* ScheduleListRowView.swift */,
+				252CCDF52B9CF4F600874B68 /* TimeView.swift */,
+				251188642B9786E8007AC44A /* AddDayView.swift */,
+				252CCDF72B9D0FC900874B68 /* AddScheduleView.swift */,
+				25EA81C12C2A10BB0007170C /* Untitled.swift */,
+				2530D8C72BF7EC640012B496 /* AddTemplateView.swift */,
+				25990D212BFE582E003BDE51 /* AddAttractionView.swift */,
+				2530D8CB2BFA90140012B496 /* TemplateView.swift */,
+				2530D8CD2BFBFEF70012B496 /* TemplatesView.swift */,
+				25990D1D2BFD233D003BDE51 /* EditTemplateView.swift */,
+				25990D1F2BFD5999003BDE51 /* EditEventView.swift */,
+				25990D232C011289003BDE51 /* csvExplanationView.swift */,
+				25990D192BFC0FCC003BDE51 /* ParkTemplateListRowView.swift */,
+				2514FB662B9DBD8F00AB5A8F /* ScheduleView.swift */,
+				25F64B2E2BBE43C50010F04F /* SchedulePhotoView.swift */,
+				25843B662BB71744005CEBE0 /* ImageSaver.swift */,
+				2514FB682B9E2AFA00AB5A8F /* ScheduleInfoView.swift */,
+				2514FB6A2B9E2C4300AB5A8F /* ScheduleTimeView.swift */,
+				2514FB6C2B9E2DBA00AB5A8F /* ScheduleLLView.swift */,
+				2510F1C82BA3786900646931 /* ScheduleChartView.swift */,
+				2510F1C42BA286AE00646931 /* EditScheduleView.swift */,
+				25A79C4A2B9A1BF60024F2FF /* DayTabView.swift */,
+				25A79C4C2B9A20AF0024F2FF /* DayHomeView.swift */,
+				257659262B97EF8800CAF0A8 /* AttractionListView.swift */,
+				25843B682BB72F7E005CEBE0 /* MapView.swift */,
+				25843B6A2BB75044005CEBE0 /* MapAnnotationView.swift */,
+				25B54F472C06956F00803F66 /* OrderMapAnnotationView.swift */,
+				25843B6E2BB762A1005CEBE0 /* MapLocationView.swift */,
+				25505E642B9FFC9D0009A7F9 /* SearchBarView.swift */,
+				2510F1C62BA3570400646931 /* StatsView.swift */,
+				25F64B2C2BBDF58D0010F04F /* StatsPhotoView.swift */,
+				2585FC562BA65EAB00CF960E /* DayStatsView.swift */,
+				25AAFFE72BA752E6005AB514 /* PDFexample.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		257CD26B2B966DA600DCC60E = {
+			isa = PBXGroup;
+			children = (
+				25C87B912BF270CA002EC8EF /* PrivacyInfo.xcprivacy */,
+				25099EA42BB08A71008D6AC7 /* MyThemeParkDay-Info.plist */,
+				257CD2762B966DA600DCC60E /* MyThemeParkDay */,
+				257CD2872B966DA700DCC60E /* MyThemeParkTests */,
+				257CD2912B966DA700DCC60E /* MyThemeParkDayUITests */,
+				257CD2752B966DA600DCC60E /* Products */,
+				25843BAE2BBB84E8005CEBE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		257CD2752B966DA600DCC60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257CD2742B966DA600DCC60E /* MyThemeParkDay.app */,
+				257CD2842B966DA700DCC60E /* MyThemeParkDayTests.xctest */,
+				257CD28E2B966DA700DCC60E /* MyThemeParkDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257CD2762B966DA600DCC60E /* MyThemeParkDay */ = {
+			isa = PBXGroup;
+			children = (
+				257CD2772B966DA600DCC60E /* MyThemeParkDayApp.swift */,
+				251188582B977FF8007AC44A /* Models */,
+				2511885B2B978034007AC44A /* ViewModels */,
+				2511885E2B978074007AC44A /* views */,
+				257CD27B2B966DA700DCC60E /* Assets.xcassets */,
+				257CD27D2B966DA700DCC60E /* Preview Content */,
+			);
+			path = MyThemeParkDay;
+			sourceTree = "<group>";
+		};
+		257CD27D2B966DA700DCC60E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				257CD27E2B966DA700DCC60E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		257CD2872B966DA700DCC60E /* MyThemeParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				257CD2882B966DA700DCC60E /* MyThemeParkDayTests.swift */,
+			);
+			path = MyThemeParkTests;
+			sourceTree = "<group>";
+		};
+		257CD2912B966DA700DCC60E /* MyThemeParkDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				257CD2922B966DA700DCC60E /* MyThemeParkDayUITests.swift */,
+				257CD2942B966DA700DCC60E /* MyThemeParkDayUITestsLaunchTests.swift */,
+			);
+			path = MyThemeParkDayUITests;
+			sourceTree = "<group>";
+		};
+		25843BAE2BBB84E8005CEBE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25843BB12BBB8B20005CEBE0 /* WatchConnectivity.framework */,
+				25843BAF2BBB84E8005CEBE0 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257CD2732B966DA600DCC60E /* MyThemeParkDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257CD2982B966DA700DCC60E /* Build configuration list for PBXNativeTarget "MyThemeParkDay" */;
+			buildPhases = (
+				257CD2702B966DA600DCC60E /* Sources */,
+				257CD2712B966DA600DCC60E /* Frameworks */,
+				257CD2722B966DA600DCC60E /* Resources */,
+				25843BA22BBB577A005CEBE0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyThemeParkDay;
+			productName = MyDisneyStats;
+			productReference = 257CD2742B966DA600DCC60E /* MyThemeParkDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		257CD2832B966DA700DCC60E /* MyThemeParkDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257CD29B2B966DA700DCC60E /* Build configuration list for PBXNativeTarget "MyThemeParkDayTests" */;
+			buildPhases = (
+				257CD2802B966DA700DCC60E /* Sources */,
+				257CD2812B966DA700DCC60E /* Frameworks */,
+				257CD2822B966DA700DCC60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257CD2862B966DA700DCC60E /* PBXTargetDependency */,
+			);
+			name = MyThemeParkDayTests;
+			productName = MyDisneyStatsTests;
+			productReference = 257CD2842B966DA700DCC60E /* MyThemeParkDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		257CD28D2B966DA700DCC60E /* MyThemeParkDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257CD29E2B966DA700DCC60E /* Build configuration list for PBXNativeTarget "MyThemeParkDayUITests" */;
+			buildPhases = (
+				257CD28A2B966DA700DCC60E /* Sources */,
+				257CD28B2B966DA700DCC60E /* Frameworks */,
+				257CD28C2B966DA700DCC60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257CD2902B966DA700DCC60E /* PBXTargetDependency */,
+			);
+			name = MyThemeParkDayUITests;
+			productName = MyDisneyStatsUITests;
+			productReference = 257CD28E2B966DA700DCC60E /* MyThemeParkDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		257CD26C2B966DA600DCC60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					257CD2732B966DA600DCC60E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					257CD2832B966DA700DCC60E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 257CD2732B966DA600DCC60E;
+					};
+					257CD28D2B966DA700DCC60E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 257CD2732B966DA600DCC60E;
+					};
+				};
+			};
+			buildConfigurationList = 257CD26F2B966DA600DCC60E /* Build configuration list for PBXProject "MyThemeParkDay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 257CD26B2B966DA600DCC60E;
+			productRefGroup = 257CD2752B966DA600DCC60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257CD2732B966DA600DCC60E /* MyThemeParkDay */,
+				257CD2832B966DA700DCC60E /* MyThemeParkDayTests */,
+				257CD28D2B966DA700DCC60E /* MyThemeParkDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257CD2722B966DA600DCC60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257CD27F2B966DA700DCC60E /* Preview Assets.xcassets in Resources */,
+				25C87B922BF270CA002EC8EF /* PrivacyInfo.xcprivacy in Resources */,
+				257CD27C2B966DA700DCC60E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257CD2822B966DA700DCC60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257CD28C2B966DA700DCC60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257CD2702B966DA600DCC60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2510F1C92BA3786900646931 /* ScheduleChartView.swift in Sources */,
+				25990D1A2BFC0FCC003BDE51 /* ParkTemplateListRowView.swift in Sources */,
+				2514FB6B2B9E2C4300AB5A8F /* ScheduleTimeView.swift in Sources */,
+				25990D202BFD599A003BDE51 /* EditEventView.swift in Sources */,
+				252CCDF62B9CF4F600874B68 /* TimeView.swift in Sources */,
+				25A79C592B9B7E3E0024F2FF /* ScheduleListRowView.swift in Sources */,
+				25843B6B2BB75044005CEBE0 /* MapAnnotationView.swift in Sources */,
+				25AAFFEA2BAA5259005AB514 /* PhotoModel.swift in Sources */,
+				25A79C5D2B9B82B00024F2FF /* ScheduleListViewModel.swift in Sources */,
+				25A79C532B9AC0C80024F2FF /* EventListRowView.swift in Sources */,
+				25505E652B9FFC9D0009A7F9 /* SearchBarView.swift in Sources */,
+				25F64B2D2BBDF58D0010F04F /* StatsPhotoView.swift in Sources */,
+				25A79C4B2B9A1BF60024F2FF /* DayTabView.swift in Sources */,
+				2514FB692B9E2AFA00AB5A8F /* ScheduleInfoView.swift in Sources */,
+				25AAFFE82BA752E6005AB514 /* PDFexample.swift in Sources */,
+				25990D1E2BFD233D003BDE51 /* EditTemplateView.swift in Sources */,
+				2514FB6D2B9E2DBA00AB5A8F /* ScheduleLLView.swift in Sources */,
+				2511885A2B97801F007AC44A /* DayModel.swift in Sources */,
+				257659272B97EF8800CAF0A8 /* AttractionListView.swift in Sources */,
+				2530D8CC2BFA90140012B496 /* TemplateView.swift in Sources */,
+				251188652B9786E8007AC44A /* AddDayView.swift in Sources */,
+				25843B6F2BB762A1005CEBE0 /* MapLocationView.swift in Sources */,
+				25843B732BB85BAF005CEBE0 /* MapViewModel.swift in Sources */,
+				2530D8CE2BFBFEF70012B496 /* TemplatesView.swift in Sources */,
+				251188602B9780A7007AC44A /* DayListView.swift in Sources */,
+				2510F1C52BA286AE00646931 /* EditScheduleView.swift in Sources */,
+				2530D8C82BF7EC640012B496 /* AddTemplateView.swift in Sources */,
+				2530D8CA2BFA7CBA0012B496 /* ParkListRowView.swift in Sources */,
+				25843B672BB71744005CEBE0 /* ImageSaver.swift in Sources */,
+				25A79C492B994F1E0024F2FF /* AttractionListRowView.swift in Sources */,
+				25EA81C22C2A10C60007170C /* Untitled.swift in Sources */,
+				25843BAA2BBB5839005CEBE0 /* WatchConnector.swift in Sources */,
+				25A79C4D2B9A20AF0024F2FF /* DayHomeView.swift in Sources */,
+				25AAFFEC2BAA53D3005AB514 /* PhotoGroupViewModel.swift in Sources */,
+				25990D242C011289003BDE51 /* csvExplanationView.swift in Sources */,
+				25B54F482C06956F00803F66 /* OrderMapAnnotationView.swift in Sources */,
+				2510F1C72BA3570400646931 /* StatsView.swift in Sources */,
+				25843B652BB61AFB005CEBE0 /* LoadingView.swift in Sources */,
+				252CCDF82B9D0FC900874B68 /* AddScheduleView.swift in Sources */,
+				257CD2782B966DA600DCC60E /* MyThemeParkDayApp.swift in Sources */,
+				25990D222BFE582E003BDE51 /* AddAttractionView.swift in Sources */,
+				25843B692BB72F7E005CEBE0 /* MapView.swift in Sources */,
+				25A79C5B2B9B7E930024F2FF /* ScheduleModel.swift in Sources */,
+				25099E9F2BAE4B44008D6AC7 /* Node.swift in Sources */,
+				25F64B2F2BBE43C50010F04F /* SchedulePhotoView.swift in Sources */,
+				2585FC572BA65EAB00CF960E /* DayStatsView.swift in Sources */,
+				25A79C452B991D000024F2FF /* EventListViewModel.swift in Sources */,
+				2514FB672B9DBD8F00AB5A8F /* ScheduleView.swift in Sources */,
+				251188632B97838C007AC44A /* DayListRowView.swift in Sources */,
+				25099EA32BB07AFD008D6AC7 /* CameraViewModel.swift in Sources */,
+				2511885D2B978068007AC44A /* DayLIstViewModel.swift in Sources */,
+				25099EA12BAE4B73008D6AC7 /* LinkedList.swift in Sources */,
+				25843B752BB9C38C005CEBE0 /* PhotoRefModel.swift in Sources */,
+				25A79C472B991FC60024F2FF /* EventModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257CD2802B966DA700DCC60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257CD2892B966DA700DCC60E /* MyThemeParkDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257CD28A2B966DA700DCC60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257CD2952B966DA700DCC60E /* MyThemeParkDayUITestsLaunchTests.swift in Sources */,
+				257CD2932B966DA700DCC60E /* MyThemeParkDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257CD2862B966DA700DCC60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257CD2732B966DA600DCC60E /* MyThemeParkDay */;
+			targetProxy = 257CD2852B966DA700DCC60E /* PBXContainerItemProxy */;
+		};
+		257CD2902B966DA700DCC60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257CD2732B966DA600DCC60E /* MyThemeParkDay */;
+			targetProxy = 257CD28F2B966DA700DCC60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257CD2962B966DA700DCC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		257CD2972B966DA700DCC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257CD2992B966DA700DCC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyThemeParkDay/Preview Content\"";
+				DEVELOPMENT_TEAM = 85S97N4J48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyThemeParkDay-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Theme Park Day";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Turning on location services allows us to show your location on the map. Your location will not be collected.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to photos to upload photos from your library. Your photos will not be collected.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthwecolenoren.MyThemeParkDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		257CD29A2B966DA700DCC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyThemeParkDay/Preview Content\"";
+				DEVELOPMENT_TEAM = 85S97N4J48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyThemeParkDay-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Theme Park Day";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Turning on location services allows us to show your location on the map. Your location will not be collected.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to photos to upload photos from your library. Your photos will not be collected.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthwecolenoren.MyThemeParkDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		257CD29C2B966DA700DCC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85S97N4J48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthwenoren.MyDisneyStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDisneylandDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDisneylandDay";
+			};
+			name = Debug;
+		};
+		257CD29D2B966DA700DCC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85S97N4J48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthwenoren.MyDisneyStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDisneylandDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDisneylandDay";
+			};
+			name = Release;
+		};
+		257CD29F2B966DA700DCC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85S97N4J48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthwenoren.MyDisneyStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyDisneyStats;
+			};
+			name = Debug;
+		};
+		257CD2A02B966DA700DCC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85S97N4J48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthwenoren.MyDisneyStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyDisneyStats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257CD26F2B966DA600DCC60E /* Build configuration list for PBXProject "MyThemeParkDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257CD2962B966DA700DCC60E /* Debug */,
+				257CD2972B966DA700DCC60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257CD2982B966DA700DCC60E /* Build configuration list for PBXNativeTarget "MyThemeParkDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257CD2992B966DA700DCC60E /* Debug */,
+				257CD29A2B966DA700DCC60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257CD29B2B966DA700DCC60E /* Build configuration list for PBXNativeTarget "MyThemeParkDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257CD29C2B966DA700DCC60E /* Debug */,
+				257CD29D2B966DA700DCC60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257CD29E2B966DA700DCC60E /* Build configuration list for PBXNativeTarget "MyThemeParkDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257CD29F2B966DA700DCC60E /* Debug */,
+				257CD2A02B966DA700DCC60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 257CD26C2B966DA600DCC60E /* Project object */;
+}
