@@ -1,6 +1,0 @@
-rows: 3
-columns: 6
-
--x--x-
--x--x-
--x--x-
